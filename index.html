@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Page2Reel — A free writing space for your screenplays, stories, ideas and drafts. Your story. Your thoughts. Your words.">
+  <title>Page2Reel — Your Story, Your Words</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #0b0b12;
+      color: #f5f3ff;
+      font-family: Arial, sans-serif;
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1080px, 90%); margin: auto; }
+    header {
+      border-bottom: 1px solid #252433;
+      background: #0b0b12;
+    }
+    nav {
+      min-height: 76px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -.5px;
+    }
+    .logo {
+      width: 43px;
+      height: 43px;
+      border-radius: 13px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #9864ff, #6032c7);
+      font-size: 23px;
+    }
+    .nav-link { color: #c5bfd9; font-size: 14px; }
+    .hero { text-align: center; padding: 82px 0 68px; }
+    .pill {
+      display: inline-block;
+      border: 1px solid #40305f;
+      background: #191226;
+      color: #cbb4ff;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+    h1 {
+      font-size: clamp(39px, 7vw, 70px);
+      line-height: 1.08;
+      letter-spacing: -2px;
+      margin: 24px 0 18px;
+    }
+    .purple { color: #b69aff; }
+    .intro {
+      color: #b9b5c9;
+      max-width: 610px;
+      margin: 0 auto;
+      font-size: 17px;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 11px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .primary { background: #8052e8; color: white; }
+    .secondary {
+      border: 1px solid #383447;
+      background: #14131d;
+    }
+    .note { color: #8e899f; font-size: 12px; margin-top: 15px; }
+    .section { padding: 54px 0; }
+    .section h2 { font-size: 29px; margin: 0 0 8px; }
+    .sub { color: #aaa5bb; margin: 0 0 26px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .card {
+      padding: 23px;
+      border: 1px solid #292638;
+      border-radius: 17px;
+      background: #12111b;
+    }
+    .symbol { font-size: 27px; }
+    .card h3 { margin: 9px 0 5px; font-size: 18px; }
+    .card p { color: #aaa5bb; font-size: 14px; margin: 0; }
+    .banner {
+      padding: 32px 24px;
+      border: 1px solid #3c2b5c;
+      background: linear-gradient(120deg, #1d1530, #12111b);
+      border-radius: 19px;
+      text-align: center;
+    }
+    .banner h2 { margin-top: 0; }
+    .steps { padding-left: 22px; color: #c4bfd1; }
+    .steps li { margin: 10px 0; }
+    footer {
+      border-top: 1px solid #252433;
+      padding: 25px 0;
+      color: #928da3;
+      font-size: 12px;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 62px 0 48px; }
+      .grid { grid-template-columns: 1fr; }
+      .section { padding: 38px 0; }
+      .nav-link { font-size: 12px; }
+      h1 { letter-spacing: -1.5px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="brand" href="#">
+        <span class="logo">✍</span>
+        <span>Page2Reel</span>
+      </a>
+      <a class="nav-link" href="#features">Explore Features ↓</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <span class="pill">YOUR CREATIVE WRITING SPACE</span>
+      <h1>Your story.<br><span class="purple">Your thoughts.</span><br>Your words.</h1>
+      <p class="intro">
+        Every great story starts small. Write your screenplays,
+        develop your stories, capture ideas and keep your drafts
+        together in one place.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="#download">Get the Android App ↓</a>
+        <a class="btn secondary" href="#features">Discover Page2Reel</a>
+      </div>
+      <p class="note">Made for writers. Free to use.</p>
+    </section>
+
+    <section class="section wrap" id="features">
+      <h2>Everything starts with a story.</h2>
+      <p class="sub">A simple space for every stage of your creativity.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="symbol">🎬</div>
+          <h3>Screenplay Writing</h3>
+          <p>Work on your scripts and shape your scenes, dialogue and action.</p>
+        </article>
+        <article class="card">
+          <div class="symbol">📖</div>
+          <h3>Stories</h3>
+          <p>Build your narrative, develop characters and bring ideas to life.</p>
+        </article>
+        <article class="card">
+          <div class="symbol">💡</div>
+          <h3>Ideas & Notes</h3>
+          <p>Capture creative thoughts before inspiration slips away.</p>
+        </article>
+        <article class="card">
+          <div class="symbol">📝</div>
+          <h3>Drafts & Projects</h3>
+          <p>Keep your writing organised as your projects grow.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="download">
+      <div class="banner">
+        <h2>Start writing with Page2Reel.</h2>
+        <p class="sub">
+          The Android download link will be available here
+          once the official APK release is published.
+        </p>
+        <span class="btn secondary">Download link coming soon</span>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <h2>Installing the Android app</h2>
+      <p class="sub">When the official APK is available:</p>
+      <ol class="steps">
+        <li>Open this website on your Android phone.</li>
+        <li>Tap the official APK download button.</li>
+        <li>Open the downloaded file and follow Android's installation prompts.</li>
+        <li>If Android asks, allow installation from that source only if you trust the APK.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Page2Reel</strong><br>
+      Think It. Write It. Create It.<br>
+      © <span id="year">2026</span> Page2Reel. All rights reserved.
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
